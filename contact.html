@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Art Website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Risque" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css?family=Karla|Poppins|Raleway+Dots|Risque" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="assets/js/formValidation.js"></script>
+    </head>
+    <body>
+        <div class="contain-to-grid">
+            <nav class="top-bar">
+                <div class="row align-justify desktop-nav">
+                    <div class="columns small-4">
+                        <div class="desktop-nav-item desktop-nav-item--logo">
+                            <a href="index.html">Art By <span>Lesly Perez</span></a>
+                        </div>
+                    </div><!-- /.column -->
+                    <div class="columns desktop-nav--list small-offset-1 large-offset-3">
+                        <div class="desktop-nav-item">
+                            <a href="index.html">Home</a>
+                        </div>
+                        <div class="desktop-nav-item">
+                            <a href="artworks.html">Artworks</a>
+                        </div>
+                        <div class="desktop-nav-item">
+                            <a href="about.html">About</a>
+                        </div>
+                        <div class="desktop-nav-item">
+                            <a class="selected" href="contact.html">Contact</a>
+                        </div>
+                    </div><!-- /.column -->
+                </div><!-- /.row -->
+            </nav><!-- ./nav -->
+        </div><!-- ./contain-to-grid -->
+
+        <section class="section section--form">
+                <div class="row">
+                    <div class="columns form">
+                        <form id="contactForm" action="#" method="get">
+                            <div class="columns small-5">
+                                <!-- name -->
+                                <div class="nameArea">
+                                    <label for="firstName"><span>*</span>First Name:</label>
+                                    <input type="text" id="firstName" name="firstName" required/>
+                                </div>
+                                <div class="nameArea">
+                                    <label for="lastName"><span>*</span>Last Name:</label>
+                                    <input type="text" id="lastName" name="lastName" required/>
+                                </div>
+    
+                                <!-- email-->
+                                <div class="emailArea">
+                                    <label for="email"><span>*</span>Email:</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <!-- phone-->
+                                <div class="phoneNum">
+                                    <label for="phone"><span>*</span>Phone:</label>
+                                    <input type="tel" id="phone" name="phone" required>
+                                </div>
+                            </div>
+                            <div class="columns small-5 small-offset-2 end">
+                                <!-- comments/questions-->
+                                <div id="textarea">
+                                    <label for="comments"><span>*</span>Comments/Questions:</label>
+                                    <textarea rows="8" cols="40" id="comments" name="comments" required></textarea>
+                                </div>
+    
+                                <!-- save button-->
+                                <div class="submitBtn">
+                                    <button type="submit" name="submit" value="submit">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div><!-- /.columns -->
+                </div><!-- /.row -->
+            </section>
+
+        <footer>
+            <div class="row align-justify">
+                <div class="columns small-4">
+                    <p><span>&copy;</span> Lesly Perez 2018</p>
+                </div><!-- /.large-2 -->
+                <div class="columns small-4">
+                    <a href="instagram.com" target="_blank">
+                        <img src="./assets/img/insta-icon.png" alt="instagram logo">
+                    </a>
+                </div><!-- /.large-2 -->
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="node_modules/zurb-foundation-5/js/foundation/foundation.js"></script>
+        <script src="node_modules/zurb-foundation-5/js/foundation/foundation.reveal.js"></script>
+        <script src="assets/js/project.js"></script>
+    </body>
+</html>
